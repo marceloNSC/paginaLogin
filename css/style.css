@@ -70,7 +70,7 @@ hr{
 .region-auth input:hover{
     border-bottom:2px solid var(--cor-secundaria);
 }
-.region-auth input[type="button"]:hover{
+.region-auth input[type="submit"]:hover{
     background-color:#c45c87;
     color:#fff;
 }          
