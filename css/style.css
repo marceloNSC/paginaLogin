@@ -1,103 +1,97 @@
 *{
-	padding:0;
-	margin:0;
-	box-sizing:border-box;
-	font-size:16px; 
-	border:none;
-	font-family: 'Roboto Condensed', sans-serif;
+    padding:0;
+    margin:0;
+    box-sizing:border-box;
+    font-size:16px; 
+    border:none;
+    font-family: 'Roboto Condensed', sans-serif;
 }
-
 :root{
-	--background:#ececec;
-	--cor-primaria:#858383;
-	--cor-secundaria:#892e54;
+    --background:#ececec;
+    --cor-primaria:#858383;
+    --cor-secundaria:#892e54;
 }
-
 body{
-	background-color:var(--background);  
+    background-color:var(--background);  
 }
-
 a{
-	text-decoration:none;
-	color:var(--cor-secundaria);
-	text-align:center;
+    text-decoration:none;
+    color:var(--cor-secundaria);
+    text-align:center;
 }
 a:hover{
-	text-decoration:underline;
+    text-decoration:underline;
 }
 .region-menu a:last-child{
-	background-color:#91e5bb;
-	border-radius:5px;
+    background-color:#91e5bb;
+    border-radius:5px;
 }
 hr{
-	border:1px solid var(--cor-secundaria);
+    border:1px solid var(--cor-secundaria);
 }
 .region-menu{
-	display:flex;
-	justify-content:flex-end;
-	margin:10px 60px;
-	border-bottom:2px solid var(--cor-secundaria);
-	padding:10px;
+    display:flex;
+    justify-content:flex-end;
+    margin:10px 60px;
+    border-bottom:2px solid var(--cor-secundaria);
+    padding:10px;
 }
 .region-menu a{
-	padding:10px;
-	font-size:1.3rem;
+    padding:10px;
+    font-size:1.3rem;
 }
 .box-login{
-	display:flex;
-	justify-content:center;
-	width:500px;
-	height:400px;
-	margin:60px auto;
+    display:flex;
+    justify-content:center;
+    width:500px;
+    height:400px;
+    margin:60px auto;
 }
 .region-auth{  
-	display:flex;
-	flex-direction:column;
-	justify-content:space-evenly;
-	background-color:var(--cor-primaria);
-	width:60%;
-	height:100%;
-	padding:20px;
+    display:flex;
+    flex-direction:column;
+    justify-content:space-evenly;
+    background-color:var(--cor-primaria);
+    width:60%;
+    height:100%;
+    padding:20px;
 }
 .region-auth input{
-	font-size:1.5rem;
-	padding:4px;
-	border-bottom:2px solid var(--cor-primaria);
-	margin:0px;
-	}
+    font-size:1.5rem;
+    padding:4px;
+    border-bottom:2px solid var(--cor-primaria);
+    outline:none;
+    cursor:pointer;
+}
 .btn-signIn{
-	background-color:var(--cor-secundaria);
-	color:#fff;
+    background-color:var(--cor-secundaria);
+    color:#fff;
 }
 .region-auth input:hover{
-	border-bottom:2px solid var(--cor-secundaria);
-	cursor:pointer;
+    border-bottom:2px solid var(--cor-secundaria);
 }
-
-.sregion-auth input[type="password"]{
-	border:none;
-	text-align:center;
-	padding:4px;
-}
-.region-auth > input[type="button"]:hover{
-	background-color:#c45c87;
-	color:#fff;
-	cursor:pointer;
-}
-
+.region-auth input[type="button"]:hover{
+    background-color:#c45c87;
+    color:#fff;
+}          
 .region-folder{
-	padding:20px;
-	background-color:var(--cor-secundaria);
-	width:40%;
-	height:100%;
-	font-family: 'Phudu', cursive, Sans-Serif;
-	color:#fff;
+    padding:20px;
+    background-color:var(--cor-secundaria);
+    width:40%;
+    height:100%;
+    font-family: 'Phudu', cursive, Sans-Serif;
+    color:#fff;
 }
 .region-folder h1{
-	font-size:30px;
-	font-family: 'Phudu', cursive, Sans-Serif;
-	text-transform:uppercase;
-	font-weight:bold;
-	text-align:center;
-	margin:20px 0px;
+    font-size:30px;
+    font-family: 'Phudu', cursive, Sans-Serif;
+    text-transform:uppercase;
+    font-weight:bold;
+    text-align:center;
+    margin:20px 0px;
+}
+.region-footer{
+    width:100%;
+    color:#888;
+    text-align:center;
 }
